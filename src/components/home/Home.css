@@ -1,0 +1,155 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  overflow: hidden;
+  margin-top: 13vh;
+  flex-direction: row;
+}
+
+@media (max-width: 700px) {
+  .container1 {
+    flex-direction: column;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .navItems li {
+    z-index: 100;
+  }
+
+  #pic1 {
+    display: none;
+  }
+
+  .picture {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30vw;
+  }
+  .container2 p{
+    font-size: 1rem !important;
+  }
+}
+
+.container1::before {
+  position: absolute;
+  content: "";
+  height: 35vw;
+  width: 46vw;
+  border-radius: 50%;
+  left: -12%;
+  top: 40%;
+  background: linear-gradient(45deg, #7f00ff, pink);
+  animation: object1 6s linear infinite;
+}
+
+.container1::after {
+  position: absolute;
+  content: "";
+  height: 14vw;
+  width: 14vw;
+  border-radius: 50%;
+  left: 52%;
+  top: 13%;
+  z-index: 5;
+  background: linear-gradient(45deg, #7f00ff, pink);
+  animation: object2 6s linear infinite;
+}
+
+@keyframes object1 {
+  50% {
+    left: -13%;
+    top: 41%;
+  }
+}
+
+@keyframes object2 {
+  50% {
+    left: 52%;
+    top: 15%;
+  }
+}
+
+.headline {
+  display: block;
+  position: relative;
+  font-size: 4vw;
+  letter-spacing: 5px;
+  color: #3d535f;
+}
+
+.headline::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 45px;
+  bottom: 10px;
+  background-color: #7f00ff;
+}
+
+.container2 h1 {
+  display: block;
+  font-size: 6vw;
+  font-weight: 900;
+  color: #3d535f;
+}
+
+.headline-text {
+  color: #7f00ff;
+  text-transform: capitalize;
+}
+
+p {
+  display: block ;
+  font-size: 1.5rem;
+  width: 100% !important;
+  font-weight: 600;
+  color: #3d535f;
+}
+
+.button-box1 {
+  width: 35vw;
+  margin-left: 10vw;
+  left: 20vw;
+}
+
+.button-box1 button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #3d535f;
+  padding: 8px 14px;
+  margin: 40px 5px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+}
+
+.button-box1 button:hover {
+  background-color: #7f00ff;
+}
+
+.container20 {
+    z-index: 5;
+    padding-left: 9vw;
+  }
+  
+  #pic1 {
+    height: 31vw;
+    width: 31vw;
+    border-radius: 50%;
+    margin-top: 3.5vw;
+  }
