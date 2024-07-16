@@ -1,0 +1,63 @@
+nav {
+  display: flex !important;
+  justify-content: space-around;
+  line-height: 10vh;
+  flex-direction: row;
+}
+
+.logo {
+  display: flex;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #3d535f;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+b {
+  font-size: 70px;
+  color: #7f00ff;
+}
+
+.navItems {
+  display: flex;
+}
+
+.navItems li {
+  list-style: none;
+  margin: 0 2vw;
+}
+
+.navItems li a {
+  font-size: 25px;
+  color: #3d535f;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navItems li:hover {
+  transform: scale(1.3);
+  transition-duration: 1s;
+}
+
+.navItems li:hover a {
+  color: #7f00ff;
+}
+
+.fa-brands {
+  margin-left: 2vw;
+}
+
+.fa-brands:hover {
+  transform: scale(1.3);
+  transition-duration: 1s;
+  color: #7f00ff;
+}
+
+.links a {
+  font-size: 30px;
+  color: #3d535f;
+  margin: 25px 10px;
+}
