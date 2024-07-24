@@ -15,7 +15,7 @@ nav {
   text-transform: uppercase;
 }
 
-b {
+.logo b {
   font-size: 70px;
   color: #7f00ff;
 }

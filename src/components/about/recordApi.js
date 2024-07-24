@@ -1,0 +1,65 @@
+let recordApi = [
+    {
+      id: 1,
+      title: "EasyOps Technologies",
+      link: "https://www.easyops.com/",
+      location: "Software Engineer Intern | Remote",
+      desc1: "Engineered applications using Next.js, React.js, and TypeScript, enhancing user response by 50%.",
+      desc2: "Wrote over 100 test cases for each designed component using React Testing Library, improving code reliability and reducing bugs by 80%.",
+      desc3: "Built and maintained backend services using Node.js and increased API response efficiency.",
+      date: "October 2023 - January 2024",
+      icon: "work",
+    },
+    
+    {
+      id: 2,
+      title: "MancMint",
+      link: "https://www.mancmint.com/",
+      location: "MERN Developer Intern | Remote",
+      desc1: "Created and launched the intuitive web application, resulting in a 40% increase in user engagement and a 25% boost in subscription revenue.",
+      desc2: "Led the Frontend team and coordinated with cross-functional teams, including designers and backend developers, to bring projects to life.",
+      date: "June 2023 - Aug 2023",
+      icon: "work",
+    },
+    {
+      id: 3,
+      title: "Computer Society of India",
+      link: "https://csi.akgec.in/",
+      location: "MERN Developer",
+      desc1: "Collaborated with a team of 40 members to develop seamless software applications, boosting team productivity by 25%.",
+      desc2:"Interacted regularly with team members, resulting in a 20% improvement in team communication and coordination.",
+      date: "Nov 2022 - July 2023",
+      icon: "work",
+    },
+   
+    {
+      id: 4,
+      title: "Ajay Kumar Garg Engineering College",
+      location: "Ghaziabad , Uttar Pradesh",
+      desc1:"B.Tech Computer Science & Engineering",
+      desc2: "Grade : 8.13",
+      date: "Oct 2021 - May 2025",
+      icon: "school",
+    },
+    {
+      id: 5,
+      title: "NEW ANGELS SR SEC SCHOOL",
+      location: "Pratapgarh, India",
+      desc1:"Higher Secondary School, CBSE.",
+      desc2:"Percentage : 93.8% (PCM)",
+      buttonText: "College Projects",
+      date: "2021",
+      icon: "school",
+    },
+    {
+      id: 6,
+      title: "NEW ANGELS SR SEC SCHOOL",
+      location: "Pratapgarh, India",
+      desc1: "High School, CBSE.",
+      desc2:"Percentage: 92%",
+      date: "2019",
+      icon: "school",
+    },
+  ];
+  
+  export default recordApi;
