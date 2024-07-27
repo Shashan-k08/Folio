@@ -32,7 +32,7 @@ const Home = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/chandan-dontdude/"
+                href="https://www.linkedin.com/in/shashank-tiwari-9a7ba0239/"
                 title="LinkedIn"
               >
                 <button className="btn_shadow">
@@ -42,27 +42,18 @@ const Home = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/dontdude"
+                href="https://github.com/Shashan-k08"
                 title="GitHub"
               >
                 <button className="btn_shadow">
                   <i className="fab fa-github"></i>
                 </button>
               </a>
+              
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://medium.com/@imchandan1947"
-                title="Medium"
-              >
-                <button className="btn_shadow">
-                  <i className="fab fa-medium"></i>
-                </button>
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://codeforces.com/profile/dontDude"
+                href="https://codeforces.com/profile/Ivaan64"
                 title="Codeforces"
               >
                 <button className="btn_shadow">
@@ -72,7 +63,7 @@ const Home = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://auth.geeksforgeeks.org/user/dontdude/practice"
+                href="https://www.geeksforgeeks.org/user/shashan_k08/"
                 title="GeeksforGeeks"
               >
                 <button className="btn_shadow">
@@ -82,7 +73,7 @@ const Home = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://leetcode.com/dontdude/"
+                href="https://leetcode.com/u/shashan_k/"
                 title="LeetCode"
               >
                 <button className="btn_shadow">

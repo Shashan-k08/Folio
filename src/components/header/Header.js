@@ -1,23 +1,56 @@
-import React from 'react'
-import './Header.css'
+import React from "react";
+import { useState } from "react";
+import "./Header.css";
 const Header = () => {
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header"); //element with class "header" selected
+    header.classList.toggle("active", window.scrollY > 100); // active class is added and removed because of classList.toggle
+  });
+
+  const [ismobile, setMobile] = useState(false);
+
   return (
-    <nav>
-            <div className="logo">folio <b>.</b></div>
-            <ul className="navItems">
-                <li> <a href="/">Home</a></li>
-                <li> <a href="/">About</a></li>
-                <li> <a href="/">Skills</a></li>
-                <li> <a href="/">blog</a></li>
+    <header className="header">
+      <div className="container d_flex">
+        <div className="logo">
+          folio <b>.</b>
+        </div>
+        <div className="navlink">
+          <ul
+            className={ismobile ? "nav-links-mobile" : "link f_flex uppercase"}
+          >
+            <li>
+              {" "}
+              <a href="/">HOME</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/">ABOUT</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/">SKILLS</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/">PROJECTS</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/">CONTACT</a>
+            </li>
+          </ul>
+          <button className="toggle" onClick={() => setMobile(!ismobile)}>
+            {ismobile ? (
+              <i className="fas fa-times close home-btn"></i>
+            ) : (
+              <i className="fas fa-bars open"></i>
+            )}
+          </button>
+        </div>
+      </div>
+    </header>
+  );
+};
 
-            </ul>
-            <div className="links">
-                <a href="/"><i className="fa-brands fa-linkedin"></i></a>
-                <a href="/"><i className="fa-brands fa-github"></i></a>
-               
-            </div>
-        </nav>
-  )
-}
-
-export default Header
+export default Header;
