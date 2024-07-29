@@ -15,7 +15,7 @@ const Skill = () => {
         <div className="skl">
           <h1 className="title">{title_name}</h1>
           <div className="skl-cont">
-            <Fade left>
+            <Fade direction="left">
               <div className="skl-card">
                 <img className="img-shadow" src={frontend} alt="Frontend" />
                 <h2 className="card-title">Frontend</h2>
@@ -27,7 +27,7 @@ const Skill = () => {
                 </ul>
               </div>
             </Fade>
-            <Fade bottom>
+            <Fade direction="down">
               <div className="skl-card">
                 <img className="img-shadow" src={backend} alt="Backend" />
                 <h2 className="card-title">Backend</h2>
@@ -40,7 +40,7 @@ const Skill = () => {
                 </ul>
               </div>
             </Fade>
-            <Fade right>
+            <Fade direction="right">
               <div className="skl-card">
                 <img className="img-shadow" src={general} alt="General" />
                 <h2 className="card-title">General</h2>

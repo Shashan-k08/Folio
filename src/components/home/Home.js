@@ -19,7 +19,7 @@ const Home = () => {
       <div className="container2 container20 left ">
         <span className="headline">Hello</span>
         <h1>
-          I'm<span className="headline-text"> Shashank Tiwari</span>
+          I'm<span className="headline-text"> Shashank Tiwari 👨🏻‍💻</span>
         </h1>
         <p>
           a<span>{text}</span>

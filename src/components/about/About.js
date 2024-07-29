@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import logo from "../img/profile2.jpg";
-import {Fade} from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 // Timeline Component
 import recordApi from "./recordApi";
@@ -26,7 +26,7 @@ const Features = () => {
         <div className="abt">
           <div className="abt-left">
             {/* <div className="abt-card bg"></div> */}
-            <Fade left>
+            <Fade direction="left">
               <div className="abt-card">
                 <img
                   className="abt-img img-shadow circle"
@@ -36,8 +36,8 @@ const Features = () => {
               </div>
             </Fade>
           </div>
-          <Fade right>
-            <div className="abt-right">
+          <Fade direction="right" className="abt-right">
+            <div >
               <p className="abt-sub">
                 &emsp; I speak fluent JavaScript, and my favorite word is
                 'function'.{" "}
