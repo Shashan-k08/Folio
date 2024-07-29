@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Skill from "./components/skill/Skill";
+import Projects from "./components/projects/Projects";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Home />
       <hr />
       <About /><hr/>
-      <Skill/>
+      <Skill/><hr/>
+      <Projects/>
     </div>
   );
 }

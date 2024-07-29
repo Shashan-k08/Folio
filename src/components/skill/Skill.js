@@ -1,8 +1,8 @@
 import React from "react";
 import "./Skill.css";
-import frontend from "../img/frontend_n.jpg";
-import backend from "../img/1665863606029.png";
-import general from "../img/general_tool_logo.png";
+import frontend from "../img/frontend.jpg";
+import backend from "../img/backend.jpg";
+import general from "../img/general.jpg";
 
 import { Fade } from "react-awesome-reveal";
 
