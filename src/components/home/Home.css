@@ -1,25 +1,15 @@
 
 @media (max-width: 700px) {
 
-  nav {
-    flex-direction: column;
-  }
-
-  .navItems li {
-    z-index: 100;
-  }
-
-  #pic1 {
-    display: none;
-  }
-
-  .picture {
-    display: none;
-  }
-
   .container2 p{
     font-size: 1rem !important;
   }
+  .container1::after{
+    top: 20% !important;
+  }
+ 
+
+  
 }
 
 .container1::after {
@@ -29,7 +19,7 @@
   width: 14vw;
   border-radius: 50%;
   left: 79%;
-  top: 47%;
+  top: 47% ;
   z-index: 5;
   background: linear-gradient(45deg, #7f00ff, pink);
   animation: object2 6s linear infinite;
@@ -222,6 +212,9 @@ p {
     }
     .btn_shadow{
       margin-left: 20px;
+    }
+    .headline::after{
+      bottom: 0px;
     }
   }
   

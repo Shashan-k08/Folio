@@ -27,7 +27,7 @@ const Skill = () => {
                 </ul>
               </div>
             </Fade>
-            <Fade direction="down">
+            <Fade direction="top">
               <div className="skl-card">
                 <img className="img-shadow" src={backend} alt="Backend" />
                 <h2 className="card-title">Backend</h2>

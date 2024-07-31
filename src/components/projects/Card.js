@@ -30,8 +30,8 @@ const Card = (props) => {
 
   return (
     <>
-      <Zoom bottom>
-        <div className="Prj-card btn_shadow ">
+      <Zoom direction="up" className="Prj-card btn_shadow ">
+        <div >
           <div className="card-title">
             <a target="_blank" rel="noopener noreferrer" href={props.hostedUrl}>
               <h2>{props.title}</h2>

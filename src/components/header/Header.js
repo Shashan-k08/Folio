@@ -10,6 +10,7 @@ const Header = () => {
   const [ismobile, setMobile] = useState(false);
 
   return (
+    <>
     <header className="header">
       <div className="container d_flex">
         <div className="logo">
@@ -50,6 +51,7 @@ const Header = () => {
         </div>
       </div>
     </header>
+    </>
   );
 };
 

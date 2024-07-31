@@ -1,48 +1,48 @@
-.Prj {
+.Prj{
   margin: 4rem 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.Prj-container {
-  display: flex;
-  width: 90%;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 2rem;
+.Prj-container{
+display: flex;
+width: 90%;
+flex-wrap: wrap; 
+align-items: center;
+margin: 2rem;
 }
 .Prj .Prj-card {
-  min-height: 200px;
-  width: 400px;
-  margin: 1rem;
-  border-radius: 10px;
-  position: relative;
+min-height: 200px;;
+width: 400px;
+margin: 1rem;
+border-radius: 10px;
+position: relative;
 }
 .Prj .Prj-card:hover {
-  background: none;
-  transform: translateY(-0);
+background: none;
+transform: translateY(-0);
 }
 
 div.card-btn {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
 }
 .Prj .desc {
-  margin-top: -30px;
-  margin-bottom: 20px;
-  font-size: 17px;
+margin-top: -30px;
+margin-bottom: 20px;
+font-size: 17px;
 }
 
-.Prj .desc-sml {
+.Prj .desc-sml{
   margin-top: 8px;
   font-size: 14px;
 }
-.Prj .desc-sml span {
+.Prj .desc-sml span{
   margin-left: 0px;
 }
-.Prj .desc-sml a {
+.Prj .desc-sml a{
   color: #1f73f0;
 }
 
@@ -71,7 +71,7 @@ div.card-btn {
 }
 /*------------popup--------*/
 body.active-modal {
-  overflow-y: hidden;
+overflow-y: hidden;
 }
 
 .btn-modal {
@@ -94,7 +94,7 @@ body.active-modal {
 }
 
 .overlay {
-  background-color: #ecf0f3;
+background-color: #ecf0f3;
 }
 .modal-content {
   position: absolute;
@@ -113,7 +113,7 @@ body.active-modal {
 }
 
 /* .modal-text {
-   padding: 0 50px 0 50px;
+ padding: 0 50px 0 50px;
 } */
 .modal-text h1 {
   margin: 20px 0 20px 0;
@@ -125,11 +125,11 @@ body.active-modal {
   line-height: 25px;
 }
 .modal-text button {
-  margin-right: 20px;
-  color: #00bfff;
+margin-right: 20px;
+color: #00bfff;
 }
 
-.modal a {
+.modal a{
   color: #1f73f0;
 }
 
@@ -137,7 +137,7 @@ body.active-modal {
   font-weight: 700;
 }
 .modal-text button i {
-  margin-left: 10px;
+ margin-left: 10px;
 }
 .modal-text button.close-modal {
   position: absolute;
@@ -155,41 +155,63 @@ body.active-modal {
 }
 /*------------popup--------*/
 @media (max-width: 768px) {
-  .modal,
-  .overlay {
-    overflow: scroll;
-  }
+.modal,
+.overlay {
+  overflow: scroll;
+}
 
-  .modal .modal-img {
-    margin: 50px 0 50px 0;
-  }
-  .modal-content {
-    flex-direction: column;
-  }
-  .modal .right,
-  .modal .left {
-    padding: 0;
-  }
-  .modal-text h1 {
-    margin: 10px 0 10px 0;
-    font-size: 20px;
-  }
-  .modal-text p {
-    font-size: 13px;
-    margin-bottom: 10px;
-    line-height: 15px;
-  }
-  .modal-text button {
-    font-size: 13px;
-  }
+.modal .modal-img {
+  margin: 50px 0 50px 0;
+}
+.modal-content {
+  flex-direction: column;
+}
+.modal .right,
+.modal .left {
+  padding: 0;
+}
+.modal-text h1 {
+  margin: 10px 0 10px 0;
+  font-size: 20px;
+}
+.modal-text p {
+  font-size: 13px;
+  margin-bottom: 10px;
+  line-height: 15px;
+}
+.modal-text button {
+  font-size: 13px;
+}
 
-  .Prj .Prj-card {
-    min-height: 150px;
-    width: 400px;
-    margin: 0.5rem;
+.Prj .Prj-card {
+  min-height: 150px;
+  width: 400px;
+  margin: 0.5rem;
+}
+div.card-btn,  .dtl-btn{
+  font-size: 13px;
+}
+}
+
+.rv{
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: react-reveal-548226379046503-4;
+}
+
+@keyframes react-reveal-548226379046503-4 {
+  
+  0%{
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0px, 1000px, 0px);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
-  div.card-btn,
-  .dtl-btn {
-    font-size: 13px;
+  60%{
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0px, -60px, 0px);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
 }
