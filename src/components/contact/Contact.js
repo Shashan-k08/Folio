@@ -45,6 +45,11 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           alert("Thanks for contacting me, Message Successfully sent.");
+          setData({
+            name: "",
+            email: "",
+            message: "",
+          })
         },
         (error) => {
           console.log(error.text);
