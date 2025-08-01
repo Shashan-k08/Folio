@@ -1,18 +1,29 @@
 let recordApi = [
+  {
+    id: 1,
+    title: "NEWGEN SOFTWARE",
+    link: "https://newgensoft.com/",
+    location: "Software Engineer Intern | Noida, India",
+    desc1: "Built 10+ responsive web pages using Java, SQL, JSX, and Oracle, improving UI performance by 30%.",
+    desc2: "Collaborated directly with clients to resolve over 20 technical issues, reducing average response time by 40% and increasing client satisfaction with faster ticket resolution.",
+    desc3: "Designed and maintained reusable frontend components using JSX and integrated complex SQL queries with OracleDB and reducing query latency by 25%.",
+    date: "Feb 2025 - June 2025",
+    icon: "work",
+  },
     {
-      id: 1,
+      id: 2,
       title: "EasyOps Technologies",
       link: "https://www.easyops.com/",
       location: "Software Engineer Intern | Remote",
       desc1: "Engineered applications using Next.js, React.js, and TypeScript, enhancing user response by 50%.",
       desc2: "Wrote over 100 test cases for each designed component using React Testing Library, improving code reliability and reducing bugs by 80%.",
       desc3: "Built and maintained backend services using Node.js and increased API response efficiency.",
-      date: "October 2023 - January 2024",
+      date: "Oct 2023 - Jan 2024",
       icon: "work",
     },
     
     {
-      id: 2,
+      id: 3,
       title: "MancMint",
       link: "https://www.mancmint.com/",
       location: "MERN Developer Intern | Remote",
@@ -22,7 +33,7 @@ let recordApi = [
       icon: "work",
     },
     {
-      id: 3,
+      id: 4,
       title: "Computer Society of India",
       link: "https://csi.akgec.in/",
       location: "MERN Developer",
@@ -33,16 +44,16 @@ let recordApi = [
     },
    
     {
-      id: 4,
+      id: 5,
       title: "Ajay Kumar Garg Engineering College",
       location: "Ghaziabad , Uttar Pradesh",
       desc1:"B.Tech Computer Science & Engineering",
-      desc2: "Grade : 8.13",
+      desc2: "Grade : 8.2",
       date: "Oct 2021 - May 2025",
       icon: "school",
     },
     {
-      id: 5,
+      id: 6,
       title: "NEW ANGELS SR SEC SCHOOL",
       location: "Pratapgarh, India",
       desc1:"Higher Secondary School, CBSE.",
@@ -52,7 +63,7 @@ let recordApi = [
       icon: "school",
     },
     {
-      id: 6,
+      id: 7,
       title: "NEW ANGELS SR SEC SCHOOL",
       location: "Pratapgarh, India",
       desc1: "High School, CBSE.",
