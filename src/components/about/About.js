@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import logo from "../img/profile2.jpg";
+import logo from "../img/profile_IMG_1688_1.jpg";
 import { Fade } from "react-awesome-reveal";
 
 // Timeline Component
