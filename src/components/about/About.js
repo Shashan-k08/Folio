@@ -127,6 +127,7 @@ const Features = () => {
                   <p className="description">{element.desc1}</p>
                   <p className="description">{element.desc2}</p>
                   <p className="description">{element.desc3}</p>
+                  {element.desc4 && <p className="description">{element.desc4}</p>}
                 </VerticalTimelineElement>
               );
             })}

@@ -1,6 +1,18 @@
 let recordApi = [
   {
     id: 1,
+    title: "INFOSYS",
+    link: "https://www.infosys.com/",
+    location: "Specialist Programmer | Hyderabad, India",
+    desc1: "Architected an enterprise RAG application using Spring AI and MariaDB Vector to ingest multi-source documents, cutting automated retrieval and query search latency by 35%.",
+    desc2: "Developed an operational window configurator using Spring Boot and TypeScript, empowering stakeholders to manage intake limits and improving configuration throughput by 25%.",
+    desc3: "Scaled fulfillment microservices within the Delivery Promise Engine (DPE), optimizing order validation logic and reducing promise calculation response time by 30%.",
+    desc4: "Engineered high-throughput inventory availability pipelines across distribution nodes, streaming live stock feeds to the global retail storefront and cutting out-of-stock discrepancies by 20%.",
+    date: "Oct 2025 - Present",
+    icon: "work",
+  },
+  {
+    id: 2,
     title: "NEWGEN SOFTWARE",
     link: "https://newgensoft.com/",
     location: "Software Engineer Intern | Noida, India",
@@ -11,7 +23,7 @@ let recordApi = [
     icon: "work",
   },
     {
-      id: 2,
+      id: 3,
       title: "EasyOps Technologies",
       link: "https://www.easyops.com/",
       location: "Software Engineer Intern | Remote",
@@ -23,7 +35,7 @@ let recordApi = [
     },
     
     {
-      id: 3,
+      id: 4,
       title: "MancMint",
       link: "https://www.mancmint.com/",
       location: "MERN Developer Intern | Remote",
@@ -33,7 +45,7 @@ let recordApi = [
       icon: "work",
     },
     {
-      id: 4,
+      id: 5,
       title: "Computer Society of India",
       link: "https://csi.akgec.in/",
       location: "MERN Developer",
@@ -44,7 +56,7 @@ let recordApi = [
     },
    
     {
-      id: 5,
+      id: 6,
       title: "Ajay Kumar Garg Engineering College",
       location: "Ghaziabad , Uttar Pradesh",
       desc1:"B.Tech Computer Science & Engineering",
@@ -53,7 +65,7 @@ let recordApi = [
       icon: "school",
     },
     {
-      id: 6,
+      id: 7,
       title: "NEW ANGELS SR SEC SCHOOL",
       location: "Pratapgarh, India",
       desc1:"Higher Secondary School, CBSE.",
@@ -63,7 +75,7 @@ let recordApi = [
       icon: "school",
     },
     {
-      id: 7,
+      id: 8,
       title: "NEW ANGELS SR SEC SCHOOL",
       location: "Pratapgarh, India",
       desc1: "High School, CBSE.",
